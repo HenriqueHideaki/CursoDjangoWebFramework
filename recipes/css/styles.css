@@ -543,3 +543,20 @@
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
   }
+
+  .preparation-steps ol,
+  .preparation-steps ul {
+    margin: 2rem;
+    padding: 0 2rem;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .m-x {
+    margin: 0 var(--spacing-gutter-medium);
+  }
+  .m-y {
+    margin: var(--spacing-gutter-medium);
+  }
